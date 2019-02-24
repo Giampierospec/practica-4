@@ -18,15 +18,15 @@
   </div>
 <div  class="row" v-if="!progress && credito">
  <div class="col-sm-8 offset-sm-2">
-    <div class="card" style="width: 18rem;">
+    <div class="card border-dark">
+      <h5 class="card-header bg-primary text-white">Datos de: {{credito.nombre}}</h5>
   <div class="card-body">
-    <h5 class="card-title">Datos de: {{credito.nombre}}</h5>
-  <p class="card-text">Matrícula: {{credito.matricula}}</p>
-  <p class="card-text">Carrera: {{credito.carrera}}</p>
-  <p class="card-text">Monto a Financiar: {{credito.montoFinanciar}}</p>
-  <p class="card-text">Plazo de Pago: {{credito.plazoPago}}</p>
-  <p class="card-text">Cédula Garante: {{credito.cedulaGarante}}</p>
-  <p class="card-text">Sueldo Garante: {{credito.sueldoGarante}}</p>
+  <p class="card-text"><b>Matrícula:</b> {{credito.matricula}}</p>
+  <p class="card-text"><b>Carrera:</b> {{credito.carrera}}</p>
+  <p class="card-text"><b>Monto a Financiar:</b> {{credito.montoFinanciar}}</p>
+  <p class="card-text"><b>Plazo de Pago:</b> {{credito.plazoPago}}</p>
+  <p class="card-text"><b>Cédula Garante:</b> {{credito.cedulaGarante}}</p>
+  <p class="card-text"><b>Sueldo Garante: </b>{{credito.sueldoGarante}}</p>
  </div>
   </div>
 </div>
